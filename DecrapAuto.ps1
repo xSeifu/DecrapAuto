@@ -28,3 +28,7 @@ If ( (Get-ExecutionPolicy -scope LocalMachine) -ne "Restriced" )
 
 Write-Output "This computer has been Decrapified! Current ExecutionPolicy status:"
 Get-ExecutionPolicy
+
+#Option for deleting this ps1 file after use
+#Write-Output "Deleting DecrapAuto.ps1..."
+#Remove-Item $PSCommandPath -Force 
